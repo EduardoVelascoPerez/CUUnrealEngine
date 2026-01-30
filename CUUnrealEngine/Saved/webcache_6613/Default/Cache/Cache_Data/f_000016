@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+<head><meta name='robots' content='none' /><base href="https://na.network-auth.com/splash/EHTn3cIf.2.354/asset/" />
+  <title> CUGDL_PROFESORES</title>
+
+  <style type="text/css" media="screen">
+    html { font-size: 100%;-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+form { margin: 0; }
+label { cursor: pointer; }
+button, input {
+  -webkit-appearance:none;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+  line-height: normal;
+  *overflow: visible;
+}
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+a, a:visited, a:active {color: #fff; text-decoration: none;}
+
+.hidden { display: none; }
+
+body {
+  margin: 0;
+  background: #eee;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.4em;
+  font-family: georgia, palatino, serif;
+}
+
+h1, h2,  h3, p, a {
+  font-family: CiscoSans, helvetica, helvetica neue, verdana, tahoma, sans-serif;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 35px;
+  color: #555;
+  margin: 0 0 1em;
+}
+h2 {
+  font-size: 14px;
+  font-weight: normal;
+}
+h3 {
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #888;
+}
+p{
+  color: #555;
+}
+
+.link_in_text a { color: #555 }
+
+.header {
+  border-bottom: 1px solid #ddd;
+  padding: 2em 0;
+  margin: 0 0 2em 0;
+}
+
+.header table { width: 100%; }
+#title_cell { vertical-align: bottom; }
+#icon_cell { text-align: center; }
+#icon_cell img {
+  max-width: 200px;
+  max-height: 100px;
+}
+
+#container {
+  max-width: 900px;
+  min-width: 300px;
+  margin: 0 auto;
+  background: #fff;
+  text-align: center;
+}
+
+#content {
+  background: #fff;
+}
+
+#continue {
+  padding: 2em;
+}
+
+#blocked {
+  padding: 2em;
+}
+
+#auth {
+  box-sizing: border-box;
+  padding: 0 1.5em 2em;
+}
+
+#left_col {
+  width: 100%;
+  margin-bottom: 3em;
+  text-align: left;
+}
+
+#right_col {
+  width: 100%;
+  text-align: left;
+  margin-top: 4em;
+  margin: 0 auto;
+}
+
+#account a {
+  color: #1795E6;
+  margin-right:  1em;
+  padding-right: 1em;
+  border-right: 1px solid #ccc;
+}
+
+#account a:hover {
+  color: #0876BD;
+}
+
+#account a:last-child {
+  border: none;
+}
+
+#sign_in {
+  background: #777777;
+  color: #ffffff;
+  border-radius: 2px;
+  margin: 2.5em 0 1em;
+  padding: 1em;
+  box-sizing: border-box;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+#sign_in:hover {
+  opacity: .85;
+}
+
+#blocked_msg {
+  text-align: center;
+  padding: 15px 0;
+}
+
+#claim_ap_msg {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.formarea h3 {
+  line-height: 0;
+}
+
+.formarea input {
+  background: #eee;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: .7em;
+  width: 100%;
+}
+
+#email_field {
+  margin-bottom: 1.5em;
+}
+
+.button {
+  color: #ffffff;
+  background: #777777;
+  padding: 1em 2em;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 1em 0;
+}
+
+.button:hover {
+  opacity: .85;
+}
+
+#forgot_password, .form_links:not(.hidden) {
+  display: inline;
+}
+
+#signin_form .form_links {
+  float: right;
+}
+
+#forgot_password a,
+.form_links a {
+  font-size:  12px;
+  color: #1795E6;
+}
+
+#forgot_password a:hover,
+.form_links a:hover {
+  color: #0876BD;
+}
+
+#create_account_form h3 {
+  margin-top: 3em;
+}
+
+.footer {
+  width: 100%;
+  background: #eee;
+  border-top: 1px solid #ddd;
+  padding: 2em 0;
+  text-align: center;
+  display: inline-block;
+}
+
+.footer img {
+  margin: .5em 0;
+}
+
+.meraki_go_footer {
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  padding: 2em 0;
+  text-align: center;
+  display: inline-block;
+}
+
+.meraki_go_footer img {
+  margin: .5em 0;
+}
+
+.error {
+  background: #eee;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  margin: 3em 3em 0;
+  box-sizing: border-box;
+  padding: 0 .5em;
+}
+
+.error p {
+  color: #999;
+  font-size: 12px;
+}
+
+.login-error {
+  background: #ffdddd;
+  border-radius: 2px;
+  border: 1px solid #ffb8b8;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.login-error p {
+  color: #ff5959;
+  font-size: 12px;
+}
+
+.login-error img {
+  width: 11px;
+  margin: 5px 7px 0 0;
+}
+
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+.formarea input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0px 0px 0px red; -webkit-box-shadow: 0px 0px 0px red; box-shadow: 0px 0px 0px red; }
+.formarea label.invalid {border: none; color: red; min-height: inherit; padding: 5px 0 0; margin: 0;}
+
+@media (min-width: 370px) {
+  #auth {
+    padding: 3em 3em 5em;
+  }
+  #left_col {
+    text-align: center;
+  }
+}
+
+@media (min-width: 550px) {
+  #auth {
+    padding: 3em 3em 5em;
+  }
+  #left_col {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 3em;
+    text-align: center;
+  }
+  #right_col {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 730px) {
+  #auth {
+    display: inline-block;
+    padding: 3em 3em 5em;
+  }
+  #left_col {
+    float: left;
+    text-align: left;
+    width: 50%;
+    padding-right: 3em;
+    box-sizing: border-box;
+  }
+  #right_col {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding-left: 3em;
+    box-sizing: border-box;
+  }
+}
+
+.GoSplash .header {
+  padding-top: 4em;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.GoSplash #blocked {
+  padding-top: 1em;
+}
+
+.GoSplash .GoSplash__blockedIcon {
+  height: 8em;
+}
+
+.GoSplash .GoSplash__blockedIconLine--primary {
+  fill: #213A44;
+}
+
+.GoSplash .GoSplash__blockedIconLine--accent {
+  fill: #16E4D8;
+}
+
+.GoSplash h1 {
+  font-weight: 300;
+  color: #213A44;
+}
+
+.GoSplash p {
+  color: #666F77;
+}
+
+@media (max-width: 400px) {
+  .GoSplash .GoSplash__blockedIcon {
+    height: 6em;
+  }
+
+  .GoSplash .header {
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+  }
+
+  .GoSplash h1 {
+    font-size: 24px;
+  }
+}
+
+  </style>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+</head>
+
+<body>
+  <div id="content">
+    <div id="container">
+      <div class="header">
+        <div id="icon_cell"><img src='data:image/png;base64,/9j/4AAQSkZJRgABAQEAkACQAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4O
+Dx4WFxIZJCAmJSMgIyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/
+2wBDAQsLCw8NDx0QEB09KSMpPT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAA7AMgDASIAAhEBAxEB/8QA
+HAAAAgIDAQEAAAAAAAAAAAAABgcEBQABAwII/8QARxAAAQMCBAIFBwcKBQUB
+AAAAAQIDBAURAAYSIRMxBxRBUWEiMnGBkbHRFRYjNkJSkxdTVFVyc6GyweEk
+JjN0kkRiY2SC8P/EABsBAAEFAQEAAAAAAAAAAAAAAAABAgMEBQYH/8QAKxEA
+AgEDAwIEBgMAAAAAAAAAAAECAwQREiExBUETFCJRBmFxgbHRIzNC/9oADAMB
+AAIRAxEAPwBr1erxaJT1zJq9LadgB5yz2ADvwqa3n6rVVxSWHlQo3Y2ybKI8
+Vcz6rY3n+trqmYXY6Vf4eGS0gDkVfaPt29WBQLLkluMw2t6Q6oIbabF1KJ5D
+Grb28IQ1z5Me5uZ1JunT4OrjrjqtTi1rUe1SiTiZArlSpawqFNfat9kLuk+k
+HbBlTeit52MldTnBl1QuWmU69PgVHn6hiuzB0dzqRHXJiOiYwgXWAnStI77d
+o9GJVcUZvTkgdtXgteAkyp0hN1N1EKqhDMlR0tup2Q4e49x/gcBGZJklGZqm
+lEl9KRJcAAcUAN/TiRk3Kr9fnJeXqbhMLBcc+8RvpT4+7EHM31oqn+6c9+KN
+xCEJ4gdT8OTnU1Op7bF70eVKYc0Nx1SXlsvNr1oWsqBsLg79uGstaW0Fa1BK
+Ui5JNgBhP9Hn1xi/u3P5cGfSLVFw6M3EaUQqWspUR9wbkes2GKzWWXb2h4t1
+GnHuv2UmYukKQ+8uPRlcFlJtx7XWvxF+Q/j6MUtBqUyVmenF+XIdKpKAdbij
+ffFHbx3xZ5a+s9M7+so9+H4SRreWpUaMlBdn9R24Ga/m9unOKjQkpekJ2Wo+
+ag93icT8zVNVLozjjRs84eG2e4nt9QvhYk8yT4knDIxzuzhbq4cPRHksJVeq
+ctRL016x+yhWkewYidbkfpD34h+OJFCpMjMKlmCElhtWlb6tkX7gftH0YI05
+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
+RxWgomyVDkbcj68Zhsms8CpM/9k=
+' /></div>
+      </div>
+
+      <div id="continue">
+        <h1>Bienvenido a  CUGDL_PROFESORES</h1>
+        <p></p>
+        <a class="button" href="https://na.network-auth.com/splash/EHTn3cIf.2.354/grant?continue_url=https://cugdl.udg.mx" onclick = "javascript:(function(continue_button) {
+                  if (continue_button != null) {
+          if (continue_button.disabled) {
+            return;
+          }
+          var enable = function(continue_button) {
+            continue_button.disabled = false;
+          };
+          setTimeout(enable, 60000, continue_button);
+          continue_button.disabled = true;
+        }
+
+          var _request = new XMLHttpRequest();
+          var url = 'https://na.network-auth.com/splash/EHTn3cIf.2.354/grant?continue_url=CONTINUE_URL_PLACEHOLDER';
+          _request.open('HEAD', window.location, true);
+          _request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+          _request.onreadystatechange = function() {
+            if (_request.readyState === 4) {
+              var continue_url = _request.getResponseHeader('Continue-Url');
+              window.location.href = url.replace('CONTINUE_URL_PLACEHOLDER', continue_url);
+            };
+          };
+          _request.send(null);
+        })(this); return false;" title="Continue to the Internet">Acceder a Internet</a>
+      </div>
+    </div>
+    <div class="footer">
+      <h3>POWERED BY</h3>
+      <img width="100" alt="Cisco Meraki" src="/images/cisco-meraki-gray.png" />
+    </div>
+  </div>
+
+      <script type="text/javascript" charset="utf-8">
+                function getButtonContainer() {
+          return document.getElementsByClassName('color_button')[0];
+        }
+
+        function getButton() {
+          return document.getElementsByClassName('btn')[0] || document.getElementsByClassName('button')[0];
+        }
+
+        function disableButton(button) {
+          button.disabled = true;
+          if (button.nodeName == 'A') {
+            button.style.pointerEvents = 'none';
+          } else if (button.nodeName == 'INPUT') {
+            button.style.cursor = 'not-allowed';
+          }
+        }
+
+        function enableButton(button) {
+          button.disabled = false;
+          if (button.nodeName == 'A') {
+            button.style.pointerEvents = 'auto';
+          } else if (button.nodeName == 'INPUT') {
+            button.style.cursor = 'auto';
+          }
+        }
+
+        function handleClick(elem) {
+          var button = getButton();
+          if (elem.checked) {
+            enableButton(button)
+          } else {
+            disableButton(button);
+          }
+        }
+
+        document.addEventListener("DOMContentLoaded", function(event) {
+          var buttonContainer = getButtonContainer();
+          var button = getButton();
+          disableButton(button);
+
+          var gdprConsent = document.createElement('div');
+          var consentMsg = "Al unirse a esta red, usted acepta los términos y condiciones del servicio que se refieren en la siguiente liga.";
+          var consentHTML = '<p style="font-weight:bold">Debe aceptar lo siguiente para acceder a Internet.</p>' +
+            '<div class="flex-container">' +
+              '<input type="checkbox" id="gdpr_checkbox" onchange="handleClick(this)" style="-webkit-appearance: checkbox; margin-right: 5px; width: inherit"/>' +
+              '<pre style="display: inline-flex; margin-top: 0; white-space: pre-wrap;">' +
+                '<label for="gdpr_checkbox" style="font-family: CiscoSans, helvetica, helvetica neue, verdana, tahoma, sans-serif;">' + consentMsg + '</label>' +
+              '</pre>' +
+            '</div>';
+          gdprConsent.innerHTML = consentHTML;
+          if (buttonContainer) {
+            buttonContainer.parentNode.insertBefore(gdprConsent, buttonContainer);
+          } else {
+            button.parentNode.insertBefore(gdprConsent, button);
+          }
+        });
+
+              function disable_subsequent_click() {
+        var sign_in_button = document.getElementById('sign_in');
+        if (sign_in_button != null) {
+          setTimeout('sign_in_button.disabled = false;', 60000);
+          sign_in_button.disabled = true;
+        }
+        return true;
+      }
+
+      function update_form_action_from_headers(form) {
+        disable_subsequent_click();
+        var _request = new XMLHttpRequest();
+        var url = 'https://na.network-auth.com/splash/EHTn3cIf.2.354/login?continue_url=CONTINUE_URL_PLACEHOLDER';
+        _request.open('HEAD', window.location, true);
+        _request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+        _request.onreadystatechange = function() {
+          if (_request.readyState === 4) {
+            var continue_url = _request.getResponseHeader('Continue-Url');
+            form.action = url.replace('CONTINUE_URL_PLACEHOLDER', continue_url);
+            form.submit();
+          }
+        }
+        _request.send(null);
+        return false;
+      }
+
+        
+      </script>
+
+</body>
+</html>

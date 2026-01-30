@@ -1,17 +1,14 @@
-[5084:3476:0127/175948.050:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[5084:13316:0127/175948.126:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[5084:3476:0127/175948.197:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[5084:3476:0127/180018.616:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[5084:16176:0127/180030.781:WARNING:browser_info.cc(345)] Returning a speculative frame for [7,5]
-[5084:3476:0127/180031.503:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
-[5084:3476:0127/180031.505:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
-[5084:3476:0127/180031.507:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
-[5084:3476:0127/180031.508:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
-[5084:16176:0127/180031.775:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
-[5084:16176:0127/180151.896:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[17276:5032:0127/180316.744:VERBOSE1:video_capture_oracle.cc(91)] Capture size auto-throttling is now enabled.
-[17276:5032:0127/180316.780:VERBOSE1:video_capture_oracle.cc(120)] Capture size auto-throttling is now disabled.
-[17276:5032:0127/180316.781:VERBOSE1:capture_resolution_chooser.cc(205)] Recomputed snapped frame sizes: 1x1
-[17276:5032:0127/180316.781:VERBOSE1:capture_resolution_chooser.cc(157)] Recomputed capture size from 640x360 to 1x1 (100% of ideal size)
-[17276:5032:0127/180317.617:VERBOSE1:capture_resolution_chooser.cc(205)] Recomputed snapped frame sizes: 1x1
-[5084:3476:0127/182601.367:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[11680:16328:0129/174747.293:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[11680:4624:0129/174759.299:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[11680:16328:0129/174803.555:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[11680:10716:0129/174957.350:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\1900 Studios\Documents\GitHub\CUUnrealEngine\CUUnrealEngine\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\1900 Studios\Documents\GitHub\CUUnrealEngine\CUUnrealEngine\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[11680:10716:0129/174957.367:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\1900 Studios\Documents\GitHub\CUUnrealEngine\CUUnrealEngine\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\1900 Studios\Documents\GitHub\CUUnrealEngine\CUUnrealEngine\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[11680:10716:0129/174957.376:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\1900 Studios\Documents\GitHub\CUUnrealEngine\CUUnrealEngine\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\1900 Studios\Documents\GitHub\CUUnrealEngine\CUUnrealEngine\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[11680:10716:0129/174957.383:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\1900 Studios\Documents\GitHub\CUUnrealEngine\CUUnrealEngine\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\1900 Studios\Documents\GitHub\CUUnrealEngine\CUUnrealEngine\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[11680:16328:0129/174957.484:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[11680:16328:0129/174958.304:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
+[11680:14260:0129/174959.200:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[11680:14260:0129/174959.210:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[11680:9824:0129/175025.321:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[11680:14584:0129/175030.340:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\1900 Studios\Documents\GitHub\CUUnrealEngine\CUUnrealEngine\Saved\webcache_6613\Default\GCM Store\Encryption: IO error: C:\Users\1900 Studios\Documents\GitHub\CUUnrealEngine\CUUnrealEngine\Saved\webcache_6613\Default\GCM Store\Encryption/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[11680:16328:0129/183833.807:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

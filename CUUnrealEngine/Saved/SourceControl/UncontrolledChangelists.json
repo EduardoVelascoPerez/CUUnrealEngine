@@ -5,7 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Lista de cambios no controlados predeterminada",
 			"files": [
-				"C:/Users/1900 Studios/Documents/GitHub/CUUnrealEngine/CUUnrealEngine/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/VS/XX060WNO6GEZU5BZQCLZPP.uasset"
+				"C:/Users/1900 Studios/Documents/GitHub/CUUnrealEngine/CUUnrealEngine/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/VS/XX060WNO6GEZU5BZQCLZPP.uasset",
+				"C:/Users/1900 Studios/Documents/GitHub/CUUnrealEngine/CUUnrealEngine/Content/Inputs/IA_JUMP_EXA.uasset",
+				"C:/Users/1900 Studios/Documents/GitHub/CUUnrealEngine/CUUnrealEngine/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/AM/9YGDW7FMEY1CZD31VUYO11.uasset",
+				"C:/Users/1900 Studios/Documents/GitHub/CUUnrealEngine/CUUnrealEngine/Content/Inputs/IA_MOVE.uasset",
+				"C:/Users/1900 Studios/Documents/GitHub/CUUnrealEngine/CUUnrealEngine/Content/Inputs/IMC_Player1.uasset"
 			]
 		}
 	]

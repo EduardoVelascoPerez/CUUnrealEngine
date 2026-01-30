@@ -1,0 +1,17 @@
+[5084:3476:0127/175948.050:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[5084:13316:0127/175948.126:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[5084:3476:0127/175948.197:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[5084:3476:0127/180018.616:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[5084:16176:0127/180030.781:WARNING:browser_info.cc(345)] Returning a speculative frame for [7,5]
+[5084:3476:0127/180031.503:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
+[5084:3476:0127/180031.505:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
+[5084:3476:0127/180031.507:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
+[5084:3476:0127/180031.508:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
+[5084:16176:0127/180031.775:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
+[5084:16176:0127/180151.896:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[17276:5032:0127/180316.744:VERBOSE1:video_capture_oracle.cc(91)] Capture size auto-throttling is now enabled.
+[17276:5032:0127/180316.780:VERBOSE1:video_capture_oracle.cc(120)] Capture size auto-throttling is now disabled.
+[17276:5032:0127/180316.781:VERBOSE1:capture_resolution_chooser.cc(205)] Recomputed snapped frame sizes: 1x1
+[17276:5032:0127/180316.781:VERBOSE1:capture_resolution_chooser.cc(157)] Recomputed capture size from 640x360 to 1x1 (100% of ideal size)
+[17276:5032:0127/180317.617:VERBOSE1:capture_resolution_chooser.cc(205)] Recomputed snapped frame sizes: 1x1
+[5084:3476:0127/182601.367:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
