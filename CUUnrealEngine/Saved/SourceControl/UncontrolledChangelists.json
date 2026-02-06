@@ -12,7 +12,10 @@
 				"C:/Users/1900 Studios/Documents/GitHub/CUUnrealEngine/CUUnrealEngine/Content/Inputs/IMC_Player1.uasset",
 				"C:/Users/1900 Studios/Documents/GitHub/CUUnrealEngine/CUUnrealEngine/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/1900 Studios/Documents/GitHub/CUUnrealEngine/CUUnrealEngine/Content/Input/IMC_Default.uasset",
-				"C:/Users/1900 Studios/Documents/GitHub/CUUnrealEngine/CUUnrealEngine/Content/Input/Actions/IA_CROUCH.uasset"
+				"C:/Users/1900 Studios/Documents/GitHub/CUUnrealEngine/CUUnrealEngine/Content/Input/Actions/IA_CROUCH.uasset",
+				"C:/Users/1900 Studios/Documents/GitHub/CUUnrealEngine/CUUnrealEngine/Content/Characters/Mannequins/Anims/Unarmed/ABP_Unarmed.uasset",
+				"C:/Users/1900 Studios/Documents/GitHub/CUUnrealEngine/CUUnrealEngine/Content/Animations/Crouch.uasset",
+				"C:/Users/1900 Studios/Documents/GitHub/CUUnrealEngine/CUUnrealEngine/Content/Animations/CrouchWalk.uasset"
 			]
 		}
 	]
