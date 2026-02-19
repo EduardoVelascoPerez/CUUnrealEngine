@@ -1,3 +1,5 @@
-2026/02/10-17:12:05.487 3d1c Reusing MANIFEST C:\Users\1900 Studios\Documents\GitHub\CUUnrealEngine\CUUnrealEngine\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
-2026/02/10-17:12:05.494 3d1c Recovering log #3
-2026/02/10-17:12:05.586 3d1c Reusing old log C:\Users\1900 Studios\Documents\GitHub\CUUnrealEngine\CUUnrealEngine\Saved\webcache_6613\Default\Local Storage\leveldb/000003.log 
+2026/02/17-18:30:09.383 16c4 Reusing MANIFEST C:\Users\1900 Studios\Documents\GitHub\CUUnrealEngine\CUUnrealEngine\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
+2026/02/17-18:30:09.393 16c4 Recovering log #3
+2026/02/17-18:30:10.307 16c4 Level-0 table #3: started
+2026/02/17-18:30:10.982 16c4 Level-0 table #3: 59488 bytes OK
+2026/02/17-18:30:11.496 16c4 Delete type=0 #3
